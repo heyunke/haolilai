@@ -1,0 +1,87 @@
+main { width: 996px; height: auto; }
+
+main .wrap { width: 996px; margin-bottom: 20px; }
+
+main .wrap .cart_head { width: 996px; height: 40px; }
+
+main .wrap .cart_head .left { float: left; width: 45%; height: 50%; border-bottom: 1px dashed #d5d5d5; }
+
+main .wrap .cart_head .center { display: inline-block; text-align: center; font-size: 16px; color: #909090; width: 10%; height: 100%; line-height: 40px; }
+
+main .wrap .cart_head .right { float: right; width: 45%; height: 50%; border-bottom: 1px dashed #d5d5d5; }
+
+main .wrap .empty p { color: #626262; font-size: 14px; line-height: 180px; text-align: center; width: 996px; height: 220px; }
+
+main .wrap .empty p a { color: black; text-decoration: underline; }
+
+main .wrap .pro_list { margin-top: 10px; width: 100%; text-align: center; font-size: 12px; color: #626262; }
+
+main .wrap .pro_list thead tr { color: #626262; background: #ededed; height: 27px; }
+
+main .wrap .pro_list thead tr .left { text-align: left; width: 50px; }
+
+main .wrap .pro_list thead tr .left input { float: left; margin-top: 2px; }
+
+main .wrap .pro_list .cart_body tr td { height: 85px; border-bottom: 1px solid #d5d5d5; }
+
+main .wrap .pro_list .cart_body tr .left { text-align: left; }
+
+main .wrap .pro_list .cart_body tr .list_pic { width: 145px; }
+
+main .wrap .pro_list .cart_body tr .list_pic img { height: 70px; float: left; }
+
+main .wrap .pro_list .cart_body tr .amount { width: 85px; }
+
+main .wrap .pro_list .cart_body tr .amount .decrease { width: 22px; height: 22px; line-height: 22px; text-align: center; border: 1px solid #d5d5d5; outline-style: none; background: white; cursor: pointer; }
+
+main .wrap .pro_list .cart_body tr .amount .increase { width: 22px; height: 22px; line-height: 22px; text-align: center; border: 1px solid #d5d5d5; outline-style: none; background: white; cursor: pointer; }
+
+main .wrap .pro_list .cart_body tr .amount .count { width: 20px; height: 20px; line-height: 20px; text-align: center; border: 1px solid #d5d5d5; outline-style: none; }
+
+main .wrap .pro_list .cart_body tr .handle { width: 90px; }
+
+main .wrap .pro_list .cart_body tr .handle a { color: #626262; }
+
+main .wrap .pro_list .cart_body tr .handle a:hover { color: #6bc4df; text-decoration: underline; }
+
+main .wrap .pro_list tfoot { font-size: 14px; }
+
+main .wrap .pro_list tfoot tr { height: 51px; }
+
+main .wrap .pro_list tfoot tr .delete { border: 1px solid #d5d5d5; border-top: none; }
+
+main .wrap .pro_list tfoot tr .delete a { color: #626262; text-align: left; }
+
+main .wrap .pro_list tfoot tr .delete a:hover { color: #6bc4df; text-decoration: underline; }
+
+main .wrap .pro_list tfoot tr .total1 { background: #ededed; border-bottom: 1px solid #d5d5d5; border-left: 1px solid #d5d5d5; }
+
+main .wrap .pro_list tfoot tr .total2 { background: #ededed; border-bottom: 1px solid #d5d5d5; }
+
+main .wrap .pro_list tfoot tr .next_step { background: #ededed; border-bottom: 1px solid #d5d5d5; border-right: 1px solid #d5d5d5; }
+
+main .wrap .pro_list tfoot tr .next_step a { color: #626262; background: #ffff00; padding: 7px 13px; }
+
+main .more_prod { width: 996px; height: 383px; margin-bottom: 10px; }
+
+main .more_prod h4 { height: 58px; font-size: 13px; color: #626262; padding-left: 2px; line-height: 85px; }
+
+main .more_prod .carousel { height: 325px; width: 996px; position: relative; overflow: hidden; }
+
+main .more_prod .carousel ul { width: 1340px; position: absolute; }
+
+main .more_prod .carousel ul li { float: left; width: 325px; height: 325px; margin-right: 10px; }
+
+main .more_prod .carousel ul li dl { width: 325px; height: 325px; }
+
+main .more_prod .carousel ul li dl dt { width: 325px; height: 270px; overflow: hidden; }
+
+main .more_prod .carousel ul li dl dt img { width: 325px; }
+
+main .more_prod .carousel ul li dl dd { width: 325px; height: 52px; background: #87d0e3; font-size: 12px; color: white; line-height: 14px; }
+
+main .more_prod .carousel ul li dl dd p:nth-child(1) { font-size: 13px; padding-top: 12px; padding-left: 15px; }
+
+main .more_prod .carousel ul li dl dd p:nth-child(2) { font-size: 12px; padding-top: 5px; padding-left: 15px; }
+
+main .more_prod .carousel ul li dl dd p:nth-child(2) b { margin-right: 20px; float: right; text-align: right; }

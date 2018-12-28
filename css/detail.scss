@@ -1,0 +1,272 @@
+ $bg : #87d0e3;
+ $font_color : #2093cc;
+main{
+    height: auto;
+    .product{
+        width: 996px;
+        height: 538px;
+        margin-bottom: 12px;
+        position: relative;
+        .popout{
+            display: none;
+            width: 330px;
+            height: 174px;
+            border: 1px solid #d6d5d5;
+            background: white;
+            position: absolute;
+            margin: auto;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            h4{
+                height: 29px;
+                a{
+                    float: right;
+                    width: 28px;
+                    height: 29px;
+                    background:url(/images/xxx.png) no-repeat center 8px;
+                }
+            }
+            p{
+               height: 32px;
+               padding-left: 50px;
+               line-height: 32px; 
+               font-size: 12px;
+               background: url(../images/confirm.png) no-repeat 20px center;
+            }
+            .wrap{
+                border-top: 1px solid #d6d5d5;
+                height: 112px;
+                width: 100%;
+                a{
+                    float: left;
+                    background: #87d0e3;
+                    font-size: 15px;
+                    color: white;
+                    height: 50px;
+                    line-height: 50px;
+                    text-align: center;
+                    width: 127px;
+                    margin-top: 25px;
+                }
+                .go_cart{
+                    margin-left: 26px;
+                }
+                .back{
+                    margin-left: 20px;
+                }
+            }
+        }
+        .zoom_tool{
+            float: left;
+            width: 485px;
+            height: 538px;
+            .zoom-img{
+                width: 485px;
+                height: 485px;
+            }
+        }
+        .choose{
+            .currid{
+                display: none;
+            }
+            width: 485px;
+            height: 487px;
+            float: right;
+            .choo_top{
+                width: 485px;
+                height: 240px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .choo_middle{
+                margin-top: 10px;
+                margin-bottom: 41px;
+                width: 485px;
+                height: 73px; 
+                color: $font_color;
+                h4{
+                    height: 40px;
+                    line-height: 50px;
+                    font-size: 20px;
+                }
+                p{
+                    height: 22px;
+                    line-height: 22px;
+                    font-size: 13px;
+                    b{
+                        font-size: 18px;
+                        float: right;
+                    }
+                }
+            }
+            .choo_bottom{
+                width: 485;
+                height: 174px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-content: space-between;
+                div{
+                    width: 236px;
+                    height: 50px;
+                    background:$bg;
+                    color: white;
+                    line-height: 50px;
+                    text-align: center;
+                    font-size: 12px;
+                }
+                .size{
+                    a{  height: 100%;
+                        float: left;
+                        width: 45px;
+                        font-size: 12px;
+                        text-align: right;
+                        padding-right: 5px;
+                    } 
+                    .size_choose{  
+                        font-size: 12px;
+                        text-align: left;
+                        padding-left: 10px;
+                        width: 160px;
+                        height: 25px;
+                        line-height: 25px;
+                        background: white;
+                        color: $font_color;
+                        float: left;
+                        margin: 12px auto;
+                        position: relative;
+                        cursor: pointer;
+                        i{
+                            float: right;
+                            width: 18px;
+                            height: 25px;
+                            background: url(/images/bg7.png) no-repeat -35px 2px;
+                        }
+                        .size_select{
+                            background:white;
+                            width: 170px;
+                            height: 75px;
+                            color: $font_color;
+                            line-height: 25px;
+                            position: absolute;
+                            left:0;
+                            top: 25px;
+                            overflow: auto;
+                            display: none;
+                            z-index: 2;
+                            .cake_info{
+                                width: 100%;
+                                height:25px;
+                                .cake_size{
+                                    float: left;
+                                    margin-left: 10px;
+                                }
+                                .cake_price{
+                                    float: left;
+                                    margin-left: 30px;
+                                }
+                            }
+                            .cake_info:hover{
+                                background:$font_color;
+                                color: white;
+                            }
+                        }
+                    }
+                    //  .size_choose:hover .size_select{
+                    //     display: block;
+                    // } 
+                }
+                .amount{
+                    a{ 
+                        height: 100%;
+                        float: left;
+                        width: 45px;
+                        font-size: 12px;
+                        text-align: right;
+                        padding-right: 5px;
+                    } 
+                    .decrease{
+                        width: 27px;
+                        height: 27px;
+                        line-height: 25px;
+                        text-align: center;
+                        border: 1px solid white;
+                        float: left;
+                        margin-top: 12px;
+                        outline-style: none;
+                        background: $bg;
+                        color: white;
+                        margin-left: 35px;
+                        cursor: pointer;
+                    }
+                    .increase{
+                        width: 27px;
+                        height: 27px;
+                        line-height: 25px;
+                        text-align: center;
+                        border: 1px solid white;
+                        float: left;
+                        margin-top: 12px;
+                        outline-style: none;
+                        background: $bg;
+                        color: white;
+                        cursor: pointer;
+                    }
+                    .count{
+                        width: 25px;
+                        height: 25px;
+                        line-height: 25px;
+                        text-align: center;
+                        border: 1px solid white;
+                        float: left;
+                        margin: 12px 4px;
+                        outline-style: none;
+                        color: $font_color;
+                    }  
+                }
+                .collect{
+                    cursor: pointer;
+                }
+                .add_to_cart{
+                    cursor: pointer;
+                }
+                .buy_now{
+                    background: #ffff00;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+        }    
+    }
+}
+main .detail{
+        p{
+            img{
+                width: 996px;
+            }
+        }
+    }
+main .more_prod{
+    width: 996px;
+    height: 383px;
+    margin-bottom: 10px;
+    h4{
+        height: 58px;
+        font-size: 13px;
+        color: rgb(98, 98, 98); 
+        padding-left: 2px;
+        line-height: 85px;
+    }
+    .carousel{
+        height: 325px;
+        width: 996px;
+        img{
+            height: 100%;
+        }
+    }
+}    

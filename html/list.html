@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>产品系列_好利来蛋糕官网__蛋糕3小时急送达__口感不满即可退货</title>
+	<link rel="stylesheet" href="/haolilai/css/index.css">
+	<link rel="stylesheet" href="/haolilai/css/list.css">
+	<script src="/haolilai/lib/requirejs/require.min.js" data-main="/haolilai/js/list.js"></script>
+</head>
+<body>
+	<!-- header -->
+	<header></header>
+	<!--main-->
+	<main>
+		<ul class="list">
+			<li>
+				<a href="javascript:void(0)" target="_blank">
+					<dl>
+						<dt>
+							<img src="/haolilai/images/cake/cake8.jpg">
+						</dt>
+						<dd>
+							<p>补缴运费、差价</p>
+							<p>特殊补缴款项<b>￥1.00</b></p>
+						</dd>
+					</dl>
+				</a>
+			</li>
+		</ul>
+	</main>
+	<!--footer-->
+	<footer></footer>
+	<!--模版：art-template-->
+	<script type="text/html" id="prod-template">
+		{{each list curr}}
+		<li>
+			<a href="/haolilai/html/detail.html?id={{curr.id}}" target="_blank">
+				<dl>
+					<dt>
+						<img src="{{curr.img}}">
+					</dt>
+					<dd>
+						<p>{{curr.title}}</p>
+						<p>{{curr.describe}}<b>￥{{curr.price}}</b></p>
+					</dd>
+				</dl>
+			</a>
+		</li>
+		{{/each}}
+	</script>
+	<!-- {
+	"res_code":1,
+	"res_error":"",
+	"res_body":{
+		"list":[
+			{"id":1,"price":999,"img":"","title":"xxxxxx"},
+			{"id":1,"price":999,"img":"","title":"xxxxxx"},
+			{"id":1,"price":999,"img":"","title":"xxxxxx"},
+			{"id":1,"price":999,"img":"","title":"xxxxxx"},
+			{"id":1,"price":999,"img":"","title":"xxxxxx"}
+		]
+	}
+} -->
+</body>
+</html>

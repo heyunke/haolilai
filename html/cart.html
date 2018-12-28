@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>好利来蛋糕官网__蛋糕3小时急送达__口感不满即可退货</title>
+    <link rel="stylesheet" href="/haolilai/css/index.css">
+    <link rel="stylesheet" href="/haolilai/css/cart.css">
+	<script src="/haolilai/lib/requirejs/require.min.js" data-main="/haolilai/js/cart.js"></script>
+</head>
+<body>
+	<!-- header -->
+	<header></header>
+	<!--main-->
+	<main>
+        <div class="wrap">
+            <div class="cart_head">
+                <span class="left"></span>
+                <span class="center">购物车</span>
+                <span class="right"></span>
+            </div>
+            <div class="empty">
+                <p>您还没有选购商品，您可以选择以下推荐商品， 也可以<a href="/haolilai/index.html">返回首页</a>购买。</p>
+            </div>
+            <table class="pro_list" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th class="left"><input type="checkbox" class="check_all">全选</th>
+                        <th>图片</th>
+                        <th>名称</th>
+                        <th>属性</th>
+                        <th>积分</th>
+                        <th>单价</th>
+                        <th>数量</th>
+                        <th>小计</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody class="cart_body"></tbody>
+                <tfoot>
+                    <tr>
+                        <td class="delete" colspan="2">
+                            <a class="dele_checked" href="javascript:void(0)">&times删除选中商品</a>
+                        </td>
+                        <td colspan="4"></td>
+                        <td class="total1">总计:</td>
+                        <td class="total2">0.00</td>
+                        <td class="next_step">
+                            <a href="/haolilai/html/account.html">下一步</a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <script type="text/html" id="cart_template">
+                {{each cart curr}}
+                <tr>
+                    <td class="left"><input type="checkbox" class="check"><span>{{curr.id}}</span></td>
+                    <td class="list_pic"><img src="{{curr.img}}" alt=""></td>
+                    <td>{{curr.chtitle}}</td>
+                    <td class="size">{{curr.size}}</td>
+                    <td>{{curr.price}}积分</td>
+                    <td>￥<span class="price">{{curr.price}}</span>.00</td>
+                    <td class="amount">
+                        <input class="decrease" type="button" value="-">
+                        <input class="count" type="text" value="{{curr.amount}}">
+                        <input class="increase" type="button" value="+">
+                    </td>
+                    <td class="subtotal">￥<span>{{(curr.price*curr.amount).toFixed(2)}}</span></td>
+                    <td class="handle">
+                        <a class="dele" href="javascript:void(0)">删除</a><br>
+                        <a href="javascript:void(0)">放入收藏夹</a>
+                    </td>
+                </tr>
+                {{/each}}
+            </script>
+        </div>
+		<div class="more_prod">
+			<h4>更多精彩</h4>
+			<div class="carousel">
+                    <ul class="list">
+                        <li>
+                            <a href="javascript:void(0)" target="_blank">
+                                <dl>
+                                    <dt>
+                                        <img src="/haolilai/images/cake/cake24.jpg">
+                                    </dt>
+                                    <dd>
+                                        <p>玫瑰花园</p>
+                                        <p>STORY OF ROSES<b>￥315.00</b></p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" target="_blank">
+                                <dl>
+                                    <dt>
+                                        <img src="/haolilai/images/cake/cake25.jpg">
+                                    </dt>
+                                    <dd>
+                                        <p>玫瑰之爱</p>
+                                        <p>STORY OF ROSES<b>￥218.00</b></p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" target="_blank">
+                                <dl>
+                                    <dt>
+                                        <img src="/haolilai/images/cake/cake27.jpg">
+                                    </dt>
+                                    <dd>
+                                        <p>玫瑰物语</p>
+                                        <p>STORY OF ROSES<b>￥199.00</b></p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" target="_blank">
+                                <dl>
+                                    <dt>
+                                        <img src="/haolilai/images/cake/cake21.jpg">
+                                    </dt>
+                                    <dd>
+                                        <p>浪漫甜心</p>
+                                        <p>ROMANTIC SWEETHEART<b>￥186.00</b></p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                    </ul>
+			</div>
+		</div>
+	</main>
+	<!--footer-->
+	<footer></footer>
+</body>
+</html>
+	

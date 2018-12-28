@@ -1,0 +1,229 @@
+main{
+    width: 996px;
+    height: auto;
+    .wrap{
+        width: 996px;
+        margin-bottom: 20px;
+        .cart_head{
+            width: 996px;
+            height: 40px;
+            .left{
+                float: left;
+                width: 45%;
+                height: 50%;
+                border-bottom: 1px dashed #d5d5d5;
+            }
+            .center{
+                display: inline-block;
+                text-align: center;
+                font-size: 16px;
+                color: #909090;
+                width: 10%;
+                height: 100%;
+                line-height: 40px;
+            }
+            .right{
+                float: right;
+                width: 45%;
+                height: 50%;
+                border-bottom: 1px dashed #d5d5d5;
+            }
+        }
+        .empty{
+            p{  
+                color: #626262;
+                font-size: 14px;
+                line-height: 180px;
+                text-align: center;
+                width: 996px;
+                height: 220px;
+                a{
+                    color: black;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .pro_list{
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+            color: #626262;
+            thead{
+                tr{
+                    color: #626262;
+                    background: #ededed;
+                    height: 27px;
+                    .left{
+                        text-align: left;
+                        input{
+                            float: left;
+                            margin-top: 2px;
+                        }
+                        width:50px;
+                    }
+
+                }
+            }
+            .cart_body{
+                tr{ 
+                    td{
+                        height: 85px;
+                        border-bottom: 1px solid #d5d5d5;
+                    }
+                    .left{
+                        text-align: left;
+                    }
+                    .list_pic{
+                        width: 145px;
+                        img{
+                            height: 70px;
+                            float: left;
+                        }
+                    }    
+                    .amount{
+                        width: 85px;
+                        .decrease{
+                            width: 22px;
+                            height: 22px;
+                            line-height: 22px;
+                            text-align: center;
+                            border: 1px solid #d5d5d5;
+                            outline-style: none;
+                            background: white;
+                            cursor: pointer;
+                        }
+                        .increase{
+                            width: 22px;
+                            height: 22px;
+                            line-height: 22px;
+                            text-align: center;
+                            border: 1px solid #d5d5d5;
+                            outline-style: none;
+                            background: white;
+                            cursor: pointer;
+                        }
+                        .count{
+                            width: 20px;
+                            height: 20px;
+                            line-height: 20px;
+                            text-align: center;
+                            border: 1px solid #d5d5d5;
+                            outline-style: none;
+                        }  
+                    }
+                    .handle{
+                        width: 90px;
+                        a{
+                            color: #626262;
+                        }
+                        a:hover{
+                           color:#6bc4df;
+                           text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            tfoot{
+                font-size: 14px;
+                tr{
+                    height: 51px;
+                    .delete{
+                        border: 1px solid #d5d5d5;
+                        border-top: none;
+                        a{
+                            color: #626262;
+                            text-align: left;
+                        }
+                        a:hover{
+                            color:#6bc4df;
+                            text-decoration: underline;
+                        }
+                    }
+                    .total1{
+                        background: #ededed;
+                        border-bottom: 1px solid #d5d5d5;
+                        border-left:  1px solid #d5d5d5;
+                    }
+                    .total2{
+                        background: #ededed;
+                        border-bottom: 1px solid #d5d5d5;
+                    }
+                    .next_step{
+                        background: #ededed;
+                        border-bottom: 1px solid #d5d5d5;
+                        border-right:  1px solid #d5d5d5;
+                        a{  
+                            color: #626262;
+                            background:#ffff00;
+                            padding: 7px 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .more_prod{
+        width: 996px;
+        height: 383px;
+        margin-bottom: 10px;
+        h4{
+            height: 58px;
+            font-size: 13px;
+            color: rgb(98, 98, 98); 
+            padding-left: 2px;
+            line-height: 85px;
+        }
+        .carousel{
+            height: 325px;
+            width: 996px;
+            position: relative;
+            overflow: hidden;
+            ul{
+                width:1340px;
+                position: absolute;
+                li{
+                    float: left;
+                    width: 325px;
+                    height: 325px;
+                    margin-right: 10px;
+                    dl{
+                        width: 325px;
+                        height: 325px;
+                        dt{
+                            width: 325px;
+                            height: 270px;
+                            overflow: hidden;
+                            img{
+                                width: 325px;
+                            }
+                        }
+                        dd{
+                            width: 325px;
+                            height: 52px;
+                            background:#87d0e3;
+                            font-size: 12px;
+                            color: white;
+                            line-height: 14px;
+                            p:nth-child(1){
+                                font-size: 13px;
+                                padding-top: 12px;
+                                padding-left: 15px;
+                            }
+                            p:nth-child(2){
+                                font-size: 12px;
+                                padding-top: 5px;
+                                padding-left: 15px;
+                                b{  
+                                    margin-right: 20px;
+                                    float: right;
+                                    text-align: right;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}

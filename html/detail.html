@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>好利来蛋糕官网__蛋糕3小时急送达__口感不满即可退货</title>
+	<link rel="stylesheet" href="/haolilai/css/index.css">
+	<link rel="stylesheet" href="/haolilai/css/detail.css">
+	<link rel="stylesheet" href="/haolilai/lib/layer/layer.css">
+	<script src="/haolilai/lib/requirejs/require.min.js" data-main="/haolilai/js/detail.js"></script>
+</head>
+<body>
+	<!-- header -->
+	<header></header>
+	<!--main-->
+	<main>
+		<!--模版：art-template-->
+	  	<script type="text/html" id="detail-template">
+		<div class="product">
+			<div class="popout">
+				<h4><a href="javascript:void(0)"></a></h4>
+				<p>添加成功</p>
+				<div class="wrap">
+					<a class="go_cart" href="/haolilai/html/cart.html">去购物车结算</a>
+					<a class="back" href="/haolilai/html/list.html">再逛逛</a>
+				</div>
+			</div>
+			<div class="zoom_tool">
+				<img class="zoom-img" src="{{zoomImgs[0].middle}}" data-zoom-image="{{zoomImgs[0].big}}"/>
+				<div id="gal1"> 
+					{{each zoomImgs img}}
+					<a href="#" data-image="{{img.middle}}" data-zoom-image="{{img.big}}">
+					<img src="{{img.small}}" />
+					</a>
+					{{/each}}
+				</div>
+			</div>
+			<div class="choose">
+				<div class="currid">{{id}}</div>
+				<div class="choo_top">
+					<img src="{{img_right}}" alt="">
+				</div>
+				<div class="choo_middle">
+					<h4>{{chtitle}}</h4>
+					<p>{{ustitle}} <b>￥{{size_price[0].price}}.00</b></p>
+				</div>
+				<div class="choo_bottom">
+					<div class="size">
+						<a>规格</a>
+						<div class="size_choose" id="size_choice">
+							<span id="text">请选择</span>
+							<i></i>
+							<div class="size_select" id="size_selec">
+								{{each size_price curr}}
+								<p class="cake_info cakesize">
+									<span class="cake_size ">{{curr.size}}x{{curr.size}}cm</span>
+									<span class="cake_price">￥<b>{{curr.price}}.00</b></span>
+								</p>
+								{{/each}}
+							</div>
+						</div>
+					</div>
+					<div class="collect">
+						收藏
+					</div>
+					<div class="tableware size">
+						<a>餐具</a>
+						<div class="size_choose" id="tableware_choice">
+							<span id="text1">请选择 (免费)</span>
+							<i></i>
+							<div class="size_select" id="tableware_selec">
+								<p class="cake_info tablewares">
+									<span class="cake_size">不要餐具</span>
+								</p>
+								<p class="cake_info tablewares">
+									<span class="cake_size">2人份</span>
+								</p>
+								<p class="cake_info tablewares">
+									<span class="cake_size">3人份</span>
+								</p>
+								<p class="cake_info tablewares">
+									<span class="cake_size">4人份</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="add_to_cart">
+						加入购物车
+					</div>
+					<div class="amount">
+						<a>数量</a>
+						<input class="decrease" type="button" value="-">
+						<input class="count" type="text" value="1">
+						<input class="increase" type="button" value="+">
+					</div>
+					<div class="buy_now">
+						立即购买
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="detail">
+			{{each detail_images curr}}
+			<p><img src="{{curr.detail_image}}" alt=""></p>
+			{{/each}}
+			<p><img src="/haolilai/images/bg6.jpg" alt=""></p>
+			<p><img src="/haolilai/images/bg5.jpg" alt=""></p>
+		</div>
+		</script>	
+		<div class="more_prod">
+			<h4>更多精彩</h4>
+			<div class="carousel">
+				<ul class="list">
+					<li>
+						<a href="javascript:void(0)" target="_blank">
+							<dl>
+								<dt>
+									<img src="/haolilai/images/cake/cake24.jpg">
+								</dt>
+								<dd>
+									<p>玫瑰花园</p>
+									<p>STORY OF ROSES<b>￥315.00</b></p>
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)" target="_blank">
+							<dl>
+								<dt>
+									<img src="/haolilai/images/cake/cake25.jpg">
+								</dt>
+								<dd>
+									<p>玫瑰之爱</p>
+									<p>STORY OF ROSES<b>￥218.00</b></p>
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)" target="_blank">
+							<dl>
+								<dt>
+									<img src="/haolilai/images/cake/cake27.jpg">
+								</dt>
+								<dd>
+									<p>玫瑰物语</p>
+									<p>STORY OF ROSES<b>￥199.00</b></p>
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)" target="_blank">
+							<dl>
+								<dt>
+									<img src="/haolilai/images/cake/cake21.jpg">
+								</dt>
+								<dd>
+									<p>浪漫甜心</p>
+									<p>ROMANTIC SWEETHEART<b>￥186.00</b></p>
+								</dd>
+							</dl>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<!--footer-->
+	<footer></footer>
+</body>
+</html>
+	

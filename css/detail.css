@@ -1,0 +1,83 @@
+main { height: auto; }
+
+main .product { width: 996px; height: 538px; margin-bottom: 12px; position: relative; }
+
+main .product .popout { display: none; width: 330px; height: 174px; border: 1px solid #d6d5d5; background: white; position: absolute; margin: auto; z-index: 2; top: 0; left: 0; right: 0; bottom: 0; }
+
+main .product .popout h4 { height: 29px; }
+
+main .product .popout h4 a { float: right; width: 28px; height: 29px; background: url(/haolilai/images/xxx.png) no-repeat center 8px; }
+
+main .product .popout p { height: 32px; padding-left: 50px; line-height: 32px; font-size: 12px; background: url(/haolilai/images/confirm.png) no-repeat 20px center; }
+
+main .product .popout .wrap { border-top: 1px solid #d6d5d5; height: 112px; width: 100%; }
+
+main .product .popout .wrap a { float: left; background: #87d0e3; font-size: 15px; color: white; height: 50px; line-height: 50px; text-align: center; width: 127px; margin-top: 25px; }
+
+main .product .popout .wrap .go_cart { margin-left: 26px; }
+
+main .product .popout .wrap .back { margin-left: 20px; }
+
+main .product .zoom_tool { float: left; width: 485px; height: 538px; }
+
+main .product .zoom_tool .zoom-img { width: 485px; height: 485px; }
+
+main .product .choose { width: 485px; height: 487px; float: right; }
+
+main .product .choose .currid { display: none; }
+
+main .product .choose .choo_top { width: 485px; height: 240px; }
+
+main .product .choose .choo_top img { width: 100%; height: 100%; }
+
+main .product .choose .choo_middle { margin-top: 10px; margin-bottom: 41px; width: 485px; height: 73px; color: #2093cc; }
+
+main .product .choose .choo_middle h4 { height: 40px; line-height: 50px; font-size: 20px; }
+
+main .product .choose .choo_middle p { height: 22px; line-height: 22px; font-size: 13px; }
+
+main .product .choose .choo_middle p b { font-size: 18px; float: right; }
+
+main .product .choose .choo_bottom { width: 485; height: 174px; display: flex; flex-wrap: wrap; justify-content: space-between; align-content: space-between; }
+
+main .product .choose .choo_bottom div { width: 236px; height: 50px; background: #87d0e3; color: white; line-height: 50px; text-align: center; font-size: 12px; }
+
+main .product .choose .choo_bottom .size a { height: 100%; float: left; width: 45px; font-size: 12px; text-align: right; padding-right: 5px; }
+
+main .product .choose .choo_bottom .size .size_choose { font-size: 12px; text-align: left; padding-left: 10px; width: 160px; height: 25px; line-height: 25px; background: white; color: #2093cc; float: left; margin: 12px auto; position: relative; cursor: pointer; }
+
+main .product .choose .choo_bottom .size .size_choose i { float: right; width: 18px; height: 25px; background: url(/haolilai/images/bg7.png) no-repeat -35px 2px; }
+
+main .product .choose .choo_bottom .size .size_choose .size_select { background: white; width: 170px; height: 75px; color: #2093cc; line-height: 25px; position: absolute; left: 0; top: 25px; overflow: auto; display: none; z-index: 2; }
+
+main .product .choose .choo_bottom .size .size_choose .size_select .cake_info { width: 100%; height: 25px; }
+
+main .product .choose .choo_bottom .size .size_choose .size_select .cake_info .cake_size { float: left; margin-left: 10px; }
+
+main .product .choose .choo_bottom .size .size_choose .size_select .cake_info .cake_price { float: left; margin-left: 30px; }
+
+main .product .choose .choo_bottom .size .size_choose .size_select .cake_info:hover { background: #2093cc; color: white; }
+
+main .product .choose .choo_bottom .amount a { height: 100%; float: left; width: 45px; font-size: 12px; text-align: right; padding-right: 5px; }
+
+main .product .choose .choo_bottom .amount .decrease { width: 27px; height: 27px; line-height: 25px; text-align: center; border: 1px solid white; float: left; margin-top: 12px; outline-style: none; background: #87d0e3; color: white; margin-left: 35px; cursor: pointer; }
+
+main .product .choose .choo_bottom .amount .increase { width: 27px; height: 27px; line-height: 25px; text-align: center; border: 1px solid white; float: left; margin-top: 12px; outline-style: none; background: #87d0e3; color: white; cursor: pointer; }
+
+main .product .choose .choo_bottom .amount .count { width: 25px; height: 25px; line-height: 25px; text-align: center; border: 1px solid white; float: left; margin: 12px 4px; outline-style: none; color: #2093cc; }
+
+main .product .choose .choo_bottom .collect { cursor: pointer; }
+
+main .product .choose .choo_bottom .add_to_cart { cursor: pointer; }
+
+main .product .choose .choo_bottom .buy_now { background: #ffff00; color: black; cursor: pointer; }
+
+main .detail p img { width: 996px; }
+
+main .more_prod { width: 996px; height: 383px; margin-bottom: 10px; }
+
+main .more_prod h4 { height: 58px; font-size: 13px; color: #626262; padding-left: 2px; line-height: 85px; }
+
+main .more_prod .carousel { height: 325px; width: 996px; }
+
+main .more_prod .carousel img { height: 100%; }

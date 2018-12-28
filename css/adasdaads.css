@@ -1,0 +1,237 @@
+*{margin: 0;padding: 0;}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* header */
+header{
+    width: 996px;
+    height: 50px;
+    margin: 0 auto;
+}
+header .head_ul{
+    float: right;
+    margin-top: 23px;
+}
+header .head_ul li{
+    float: left;
+    height: 14px;
+    line-height: 14px;
+}
+header .head_ul li a{
+    color: #6bc5e0;
+    font-size: 12px;
+}
+header .head_ul .address{
+    width: 43px;
+}
+header .head_ul .address a{
+    display: inline-block;
+    width: 43px;
+    text-align: right;
+    background: url("/haolilai/images/home_page/address.png") no-repeat left center;
+}
+header .head_ul .cart{
+    width: 65px;
+}
+header .head_ul .cart a{
+    display: inline-block;
+    width: 65px;
+    text-align: right;
+    background: url("/haolilai/images/home_page/cart.png") no-repeat 20px center;
+}
+
+header .head_ul .login{
+    width: 47px;
+    text-align: right;
+}
+header .head_ul .register{
+    width: 45px;
+    text-align: right;
+}
+/* nav */
+nav{
+    width: 996px;
+    height: 75px;
+    margin: 0 auto;
+    position: relative;
+}
+nav .home{
+    position: absolute;
+    left: 0;
+    top: -17px;
+}
+nav .nav_ul{
+    float: left;
+    margin-left: 151px;
+    height: 50px;
+}
+nav .nav_ul>li{
+    float: left;
+    width: 165px;
+    height: 50px;
+    border-right: 1px solid #6ac4de;
+}
+nav .nav_ul>li:nth-child(4){
+    border: none;
+}
+nav .nav_ul>li>a{
+    display: inline-block;
+    width: 165px;
+    height: 50px;
+    color: #6ac5e4;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+nav .nav_ul .cake_series .cake_ul{
+    display:none;
+    width: 125px;
+    height: 240px;
+    margin: 0 auto;
+    background: white;
+}
+nav .nav_ul .cake_series:hover .cake_ul{
+    display:block;
+}
+nav .nav_ul .cake_series .cake_ul li{
+    width: 125px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+}
+nav .nav_ul .cake_series .cake_ul li a{
+    color: #6ac5e4;
+}
+nav .phone{
+    width: 107px;
+    height: 46px;
+    float: right;
+    margin-right: 45px;
+}
+nav .phone .num{
+    width: 107px;
+    height: 24px;
+    font-size: 13px;
+    color: #6ac4de;
+    text-align: right;
+    line-height: 24px;
+    background: url(/haolilai/images/home_page/p\ \(3\).png) no-repeat 0 2px;
+    background-size: 15px 15px;
+}
+nav .phone .search{
+    width: 105px;
+    height: 20px;
+    border: 1px solid #6ac4de;
+}
+nav .phone .search .serch{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background:url(/haolilai/images/home_page/search.png) no-repeat center;
+}
+nav .phone .search input{
+    width: 85px;
+    height: 20px;
+    float: right;
+    border: none;
+    outline: none;
+}
+/* .banner */
+.banner{
+    width: 996px;
+    height: 460px;
+    margin: 0 auto;
+}
+.banner .wrap{
+    height: 450px;
+    width: 996px;
+}
+/* main */
+main{
+    width: 996px;
+    height: 990px;
+    margin: 0 auto;
+}
+main .top{
+    width: 996px;
+    height: 270px;
+    display: flex;
+    justify-content:space-between;
+}
+main .top a{
+    width: 325px;
+    height: 270px;
+}
+main .top a dl{
+    width: 325px;
+    height: 270px;
+}
+main .top a dl dt{
+    width: 325px;
+    height: 220px;
+}
+main .top a dl dd{
+    padding-left: 15px;
+    padding-top: 8px;
+    width: 310px;
+    height: 42px;
+    background: #87d0e3;
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+}
+main .middle{
+    height: 420px;
+    width: 996px;
+    margin: 10px auto;
+    background:url(/haolilai/images/home_page/p\ \(4\).jpg) no-repeat left center;
+}
+main .middle video{
+    height: 420px;
+    width: 746px;
+    float: right;
+    border: none;
+}
+main .bottom{
+    width: 996px;
+    height: 270px;
+    display: flex;
+    justify-content:space-between;
+}
+main .bottom a{
+    width: 325px;
+    height: 270px;
+}
+main .bottom a dl{
+    width: 325px;
+    height: 270px;
+}
+main .bottom a dl dt{
+    width: 325px;
+    height: 220px;
+}
+main .bottom a dl dd{
+    padding-left: 15px;
+    padding-top: 8px;
+    width: 310px;
+    height: 42px;
+    background: #87d0e3;
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+}
+/* footer */
+footer{
+    width: 996px;
+    height: 150px;
+    background:sandybrown;
+    margin: 0 auto;
+}

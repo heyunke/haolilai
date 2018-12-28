@@ -1,0 +1,50 @@
+$bg:#87d0e3;
+main{
+    width: 996px;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            width: 325px;
+            height: 325px;
+            margin: 5px 0;
+            dl{
+                width: 325px;
+                height: 325px;
+                dt{
+                    width: 325px;
+                    height: 270px;
+                    overflow: hidden;
+                    img:hover{
+                        width: 120%;
+                    }
+                }
+                dd{
+                    width: 325px;
+                    height: 52px;
+                    background:$bg;
+                    font-size: 12px;
+                    color: white;
+                    line-height: 14px;
+                    p:nth-child(1){
+                        font-size: 13px;
+                        padding-top: 12px;
+                        padding-left: 15px;
+                    }
+                    p:nth-child(2){
+                        font-size: 12px;
+                        padding-top: 5px;
+                        padding-left: 15px;
+                        b{  
+                            margin-right: 20px;
+                            float: right;
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
