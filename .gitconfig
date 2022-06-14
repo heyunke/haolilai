@@ -1,6 +1,12 @@
 [user]
-name = 
-email =
+name = hhh
+email = 
+
+# [http]
+# proxy = socks5://127.0.0.1:5001
+
+# [https]
+# proxy = socks5://127.0.0.1:5001
 
 [alias]
 
